@@ -7,7 +7,7 @@ Create a token in Setod under Settings → Developer. One token is one workspace
 ## Cursor and other clients
 
 ```bash
-npx skills add setod/skills
+npx skills add mamipour/setod-skills
 ```
 
 Update later with `npx skills update`. Paste the Cursor snippet from Settings → Developer into `~/.cursor/mcp.json`.
@@ -15,7 +15,7 @@ Update later with `npx skills update`. Paste the Cursor snippet from Settings �
 ## Claude Code
 
 ```text
-/plugin marketplace add setod/skills
+/plugin marketplace add mamipour/setod-skills
 /plugin install setod-fde@setod
 ```
 
