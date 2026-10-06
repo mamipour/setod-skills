@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "setod": {
+      "type": "http",
+      "url": "https://api.setod.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${SETOD_TOKEN}"
+      }
+    }
+  }
+}
