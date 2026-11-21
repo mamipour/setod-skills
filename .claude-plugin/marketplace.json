@@ -1,10 +1,13 @@
 {
   "name": "setod",
+  "owner": {
+    "name": "Setod"
+  },
   "plugins": [
     {
       "name": "setod-fde",
       "source": "./",
-      "description": "Build, test and diagnose Setod agents from your editor."
+      "description": "Build, test, debug and publish Setod agents, and set up reception, from your editor."
     }
   ]
 }
