@@ -1,6 +1,6 @@
 ---
 name: setod-fde
-description: Build, test, debug and publish Setod agents end to end through the Setod MCP server, and set up a business's reception (roles, staff, routing, phone lines, CRM, staff requests, pricing), with the owner's yes for every live change. Use when the user mentions Setod, a Setod agent, workspace, connector, phone line, scenario, reception, staff request, or asks why an agent did or did not do something.
+description: Build, test, debug and publish Setod agents through the Setod MCP server, and set up reception. Use when the user mentions Setod, an agent, connector, phone line, scenario or staff request.
 metadata:
   version: 2
 ---
