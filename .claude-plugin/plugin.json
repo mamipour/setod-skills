@@ -8,7 +8,5 @@
   },
   "homepage": "https://setod.com",
   "repository": "https://github.com/mamipour/setod-skills",
-  "license": "MIT",
-  "privacyPolicyUrl": "https://setod.com/privacy",
-  "icon": "./.claude-plugin/icon.png"
+  "license": "MIT"
 }
