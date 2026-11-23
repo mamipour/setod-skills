@@ -2,7 +2,7 @@
 
 The Setod forward-deployed engineer skill lets Claude Code and Cursor build, test, debug and publish Setod agents, and set up a business's reception. The editor's model does the thinking. Setod only answers tool calls.
 
-You sign in to Setod with your Setod account the first time Claude uses it, and pick the workspace. A token from Settings > Developer works too. One sign-in or token is one workspace.
+You sign in to Setod with your Setod account the first time the server is used, and pick the workspace. One sign-in is one workspace.
 
 ## Claude (claude.ai, Claude Desktop and Cowork)
 
@@ -17,7 +17,7 @@ Or add the parts yourself: Customize > Connectors > Add custom connector with `h
 npx skills add mamipour/setod-skills
 ```
 
-Update later with `npx skills update`. Paste the Cursor snippet from Settings > Developer into `~/.cursor/mcp.json`.
+Update later with `npx skills update`. Add `https://api.setod.com/mcp` as a remote MCP server in your client's settings and sign in to Setod when it asks.
 
 ## Claude Code
 
@@ -27,12 +27,6 @@ Update later with `npx skills update`. Paste the Cursor snippet from Settings > 
 ```
 
 Then run `/mcp`, pick `setod` and sign in to Setod in the browser. Update later with `claude plugin update setod-fde@setod` (or /plugin, Marketplaces, setod, Update marketplace), then restart Claude Code.
-
-To use a token instead of signing in, add the server yourself:
-
-```bash
-claude mcp add --transport http setod https://api.setod.com/mcp --header "Authorization: Bearer $SETOD_TOKEN"
-```
 
 Privacy: https://setod.com/privacy
 
