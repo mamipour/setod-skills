@@ -3,6 +3,7 @@
   "owner": {
     "name": "Setod"
   },
+  "description": "Setod's plugin for Claude: build, test and publish Setod agents and set up reception.",
   "plugins": [
     {
       "name": "setod-fde",
