@@ -1,5 +1,6 @@
 {
   "name": "setod-fde",
+  "displayName": "Setod FDE",
   "version": "2.0.2",
   "description": "Build, test, debug and publish Setod agents, and set up reception, from your editor.",
   "author": {
@@ -8,5 +9,6 @@
   "homepage": "https://setod.com",
   "repository": "https://github.com/mamipour/setod-skills",
   "license": "MIT",
-  "privacyPolicyUrl": "https://setod.com/privacy"
+  "privacyPolicyUrl": "https://setod.com/privacy",
+  "icon": "./.claude-plugin/icon.png"
 }
