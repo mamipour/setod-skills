@@ -40,6 +40,6 @@ Privacy: https://setod.com/privacy
 - Phone lines go live in their own step, after publish, once you know who stops getting the calls.
 - Reception setup: roles, the business profile, staff, the directory, escalation, phone reception, the fallback route, the Setod CRM, staff requests and pricing.
 - Claude never asks for passwords, keys or tokens, and never approves its own connection to Setod.
-- For how-to questions about the Setod app, plans or billing, Claude reads the matching page under https://setod.com/help and gives you the link.
+- For how-to questions about the Setod app, plans or billing, Claude reads the matching page under https://setod.com/help and gives you the link. It states a price, credit amount or limit only when that page names it.
 
 When the server needs a newer skill, its guide says so on the first read, and Claude tells you how to update.

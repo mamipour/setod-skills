@@ -1,7 +1,7 @@
 {
   "name": "setod-fde",
   "displayName": "Setod FDE",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Build, test, debug and publish Setod agents, and set up reception, from your editor.",
   "author": {
     "name": "Setod"
